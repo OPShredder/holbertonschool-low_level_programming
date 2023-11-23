@@ -1,1 +1,11 @@
-root@24863eeb9cf6.1390
+#include<studio.h>
+/**
+  * main - Prints a text
+  *
+  * Return: Always 0 (Success)
+  */
+int main(void)
+{
+    puts("\"Programming is like building a multilingual puzzle");
+    return (0);
+}
