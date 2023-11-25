@@ -3,21 +3,21 @@
 int main () {
 
    /* local variable definition */
-   int a = 100;
+   int n = 100;
  
    /* check the boolean condition */
-   if( a > 0 ) {
+   if( n > 0 ) {
       /* if condition is true then print the following */
-      printf("a is positive\n" );
-   } else if( a == 0 ) {
+      printf("n is positive\n" );
+   } else if( n == 0 ) {
       /* if condition is false then print the following */
-      printf("a is 0\n" );
+      printf("n is 0\n" );
    } else {
       /* if condition is false then print the following */
-      printf("a is negative\n" );
+      printf("n is negative\n" );
    }
    
-   printf("value of a is : %d\n", a);
+   printf("value of n is : %d\n", n);
  
    return 0;
 }
