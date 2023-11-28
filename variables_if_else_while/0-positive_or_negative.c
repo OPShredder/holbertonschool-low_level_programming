@@ -1,22 +1,23 @@
+#include <stdlib.h>
 #include <stdio.h>
- 
-int main () {
+#include <time.h>
 
-random r = new random();
-/* local variable definition */
-int n = r.next(-10,10);
+/**
+*main - Prints a random number n and decides whether it is positive, negative or zero.
+*
+*Return: Always 0.
+*/
+int main(void)
+{
+	int n;
 
-printf("value of n is : %d\n", n);
-/* check the boolean condition */
-if( n > 0 ) {
-/* if condition is true then print the following */
-printf("n is positive\n" );
-} else if( n == 0 ) {
-/* if condition is false then print the following */
-printf("%d\n is zero\n" );
-} else {
-/* if condition is false then print the following */
-printf("n is negative\n" );
-}
-return 0;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else
+		printf("%d is zero\n", n);
+	return (0);
 }
