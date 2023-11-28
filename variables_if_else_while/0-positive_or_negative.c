@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
-*main - Prints a random number n and decides whether it is positive, negative or zero.
+*main - Prints a random number and decides if it is positive, negative or zero.
 *
 *Return: Always 0.
 */
