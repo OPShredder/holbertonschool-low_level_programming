@@ -1,8 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-int main(void)
+#include "main.h"
+/**
+*add - sums up two numbers
+*@n:first integer
+*@m:second integer
+*Return: returns 0
+*/
+int add(int n, int m)
 {
-int a = 5;
-int b = 2;
-return (a+b);
+return (n + m);
 }
