@@ -1,3 +1,2 @@
-#!/bin/bash
 make -f 0-Makefile 
 gcc main.c school.c -o school
