@@ -16,4 +16,4 @@ int _isalpha(int c);
 
 /* Add other function prototypes here */
 
-#endif / *MAIN_H */
+#endif / *MAIN_H *
